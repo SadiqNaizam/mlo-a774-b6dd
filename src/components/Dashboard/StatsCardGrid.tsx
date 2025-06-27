@@ -13,8 +13,8 @@ const StatsCardGrid: React.FC = () => {
       change: '3.2%',
       changeType: 'increase' as const,
       period: 'vs last month',
-      iconBgColor: 'bg-blue-100 dark:bg-blue-900/40',
-      iconColor: 'text-blue-500 dark:text-blue-400',
+      iconBgColor: 'bg-primary/15',
+      iconColor: 'text-primary',
     },
     {
       id: 'active-users',
@@ -24,8 +24,8 @@ const StatsCardGrid: React.FC = () => {
       change: '122',
       changeType: 'increase' as const,
       period: 'this week',
-      iconBgColor: 'bg-green-100 dark:bg-green-900/40',
-      iconColor: 'text-green-600 dark:text-green-400',
+      iconBgColor: 'bg-success/15',
+      iconColor: 'text-success',
     },
     {
       id: 'churn-rate',
